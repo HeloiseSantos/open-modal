@@ -75,3 +75,35 @@
 
 //     condicao ? $(this).text('Fechar modal') : $(this).text('Abrir modal');
 // });
+
+// MÉTODOS GERAIS
+
+// .attr() - pega ou define o valor de um atributo específico
+
+// var href = $('a').attr('href');
+// $('img').attr('alt', 'Imagem'); // Desta forma atribui o valor 'Imagem' para o alt
+
+// .removeAttr() - remove atributo
+
+// $('a').removeAttr('href');
+
+// .val() - pega ou define o valor de um elemento. (input, select e textarea)
+
+// $('#button-enviar').click(function() {
+//     var nome = $('.input-none').val();
+//     $('.btn').text(nome);
+// });
+
+// .remove() - remove elemento específico do DOM
+
+// $('input').remove();
+
+// $('.btn').click(function() {
+//     $('input').remove();
+// });
+
+// .empty() - remove filhos do elemento do DOM
+
+// $('a').click(function() {
+//     $('.modal').empty();
+// });
