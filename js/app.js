@@ -51,3 +51,27 @@
 // $(window).on('resize', function() {
 //     $('a').text($('body').width());
 // });
+
+// CLASSES
+
+// .addClass() - adiciona uma ou mais classes ao elemento
+
+// $('.abrir-modal').click(function() {
+//     $('.modal').addClass('active');
+// });
+
+// .toggleClass() - adiciona a classe ao elemento caso ela não exista ou remove caso ela exista
+
+// $('.abrir-modal').click(function() {
+//     $('.modal').toggleClass('active');
+// });
+
+// .hasClass() - verifica se a classe existe e retorna falso ou verdadeiro
+
+// $('.abrir-modal').click(function() {
+//     $('.modal').toggleClass('active');
+
+//     var condicao = $('.modal').hasClass('active');
+
+//     condicao ? $(this).text('Fechar modal') : $(this).text('Abrir modal');
+// });
