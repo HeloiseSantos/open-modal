@@ -107,3 +107,62 @@
 // $('a').click(function() {
 //     $('.modal').empty();
 // });
+
+// ESTILOS
+
+// .css() - pega ou define o valor de uma propriedade CSS
+
+// var psize = $('p').css('font-size');
+// console.log(psize);
+
+// var psize = $('p').css('font-size', '16px'); // Para definir um tamanho de fonte de 16px
+
+// É possível definir mais de uma propriedade por vez, porém o estilo é colocado inline no HTML
+
+// $('.modal').css({
+//     'background-color': 'blue',
+//     'width': '200px'
+// });
+
+// .height(), .innerHeight() e . outerHeight() - pega ou define o valor de height (mesmo para o width)
+
+// var height = $('.modal').height(); // Altura apenas do elemento
+// console.log(height);
+
+// var height = $('.modal').innerHeight(); // Altura do elemento + padding
+// console.log(height);
+
+// var height = $('.modal').outerHeight(); // Altura do elemento + padding + bordas
+// console.log(height);
+
+// var height = $('.modal').outerHeight(true); // Altura do elemento + padding + bordas + margin
+// console.log(height);
+
+// .offset() - retorna um objeto com as distâncias de top e left do elemento em relação ao documento
+
+// var offset = $('.modal').offset();
+// console.log(offset);
+
+// var offset = $('.modal').offset().top; // Utiliza-se dot notation para acessar um item do objeto
+// console.log(offset);
+
+// É possível definir as coordenados (É diferente de definir via CSS)
+
+// $('.modal').offset({
+//     top: 200,
+//     left: 300
+// });
+
+// .scrollTop() - pega o topo do elemento em relação ao seu scroll
+
+// $(window).scroll(function() {
+//     var scrollTop = $(this).scrollTop();
+//     console.log(scrollTop);
+// });
+
+// Também é possível definir um valor
+
+// $('.btn').click(function(e) {
+//     e.preventDefault();
+//     $(window).scrollTop(0);
+// });
