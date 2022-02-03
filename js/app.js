@@ -26,21 +26,21 @@
 //     $(this).text('Clicou');
 // });
 
-// MOUSEENTER - primeira etapa do hover (colocar mouse acima do item)
+// MOUSEENTER - passar mouse acima do item
 
 // $('a').on('mouseenter', function(e) {
 //     e.preventDefault();
 //     $(this).text('Mouse Hover');
 // });
 
-// MOUSELEAVE - segunda etapa do hover (remover mouse do item)
+// MOUSELEAVE - remover mouse do item
 
 // $('a').on('mouseleave', function(e) {
 //     e.preventDefault();
 //     $(this).text('Mouse Leave');
 // });
 
-// SCROLL - ocorre no documento do site
+// SCROLL - acontece no documento do site
 
 // $(document).on('scroll', function() {
 //     $('a').text($(document).scrollTop());
@@ -54,19 +54,19 @@
 
 // CLASSES
 
-// .addClass() - adiciona uma ou mais classes ao elemento
+// .addClass() - adiciona no elemento uma ou mais classes
 
 // $('.abrir-modal').click(function() {
 //     $('.modal').addClass('active');
 // });
 
-// .toggleClass() - adiciona a classe ao elemento caso ela não exista ou remove caso ela exista
+// .toggleClass() - adiciona no elemento uma classe caso ela não exista ou remove caso ela exista
 
 // $('.abrir-modal').click(function() {
 //     $('.modal').toggleClass('active');
 // });
 
-// .hasClass() - verifica se a classe existe e retorna falso ou verdadeiro
+// .hasClass() - verifica se a classe existe e retorna true ou false
 
 // $('.abrir-modal').click(function() {
 //     $('.modal').toggleClass('active');
@@ -78,7 +78,7 @@
 
 // MÉTODOS GERAIS
 
-// .attr() - pega ou define o valor de um atributo específico
+// .attr() - pega ou define o valor de um atributo
 
 // var href = $('a').attr('href');
 // $('img').attr('alt', 'Imagem'); // Desta forma atribui o valor 'Imagem' para o alt
@@ -94,7 +94,7 @@
 //     $('.btn').text(nome);
 // });
 
-// .remove() - remove elemento específico do DOM
+// .remove() - remove elemento do DOM
 
 // $('input').remove();
 
@@ -124,7 +124,7 @@
 //     'width': '200px'
 // });
 
-// .height(), .innerHeight() e . outerHeight() - pega ou define o valor de height (mesmo para o width)
+// .height(), .innerHeight() e . outerHeight() - pega ou define o valor de height (válido para o width)
 
 // var height = $('.modal').height(); // Altura apenas do elemento
 // console.log(height);
