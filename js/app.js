@@ -166,3 +166,52 @@
 //     e.preventDefault();
 //     $(window).scrollTop(0);
 // });
+
+// ANIMAÇÕES
+
+// .animate() - Anima CSS para o valor que for definido
+// $('.abrir-modal').click(function() {
+//     $('.modal').animate({
+//         // height: 500,
+//         // width: 300
+//         opacity: 'toggle', // Se tiver em zero vai para um e tiver em um vai para zero
+//         height: 0
+//     }, 1000, 'swing'); // Ajuste de velocidade - tempo é em milisegundos - E easing (controle da velocidade da animação - pode ser swing ou linear)
+// });
+// Também é possível fazer um animate em seguida do outro
+
+// fadeOut() - Anima opacidade do elemento até chegar a zero e aplica display none
+// $('.btn').click(function() {
+//     $('.modal').fadeOut(300);
+// });
+
+// fadeIn() - Anima opacidade do elemento até chegar a um e aplica display block
+// $('.abrir-modal').click(function() {
+//     $('.modal').fadeIn(300);
+// });
+
+// hide() - Parecido com o fadeOut, porém também vai diminuindo o elemento 
+
+// show() - Parecido com o fadeIn
+
+// slideUp() - Some com o elemento
+// $('.btn').click(function() {
+//     $('.modal').slideUp(1000);
+// });
+
+// slideDown() - Faz o elemento aparecer
+// $('.abrir-modal').click(function() {
+//     $('.modal').slideDown(1000);
+// });
+
+// slideToggle() - Se o elemento não está na tela aplica o slideDown(), se está na tela aplica o slideUp()
+// $('.abrir-modal').click(function() {
+//     $('.modal').slideToggle(1000);
+// });
+
+// É possível adicionar uma função após a animação
+// $('.abrir-modal').click(function() {
+//     $('.modal').slideToggle(function() {
+//         $('.abrir-modal').css('margin', '50px');
+//     });
+// });
