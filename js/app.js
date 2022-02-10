@@ -215,3 +215,51 @@
 //         $('.abrir-modal').css('margin', '50px');
 //     });
 // });
+
+// TRAVERSING
+
+// .each() - Funciona como um loop que percorre elementos
+// $('a').each(function() {
+//     $(this).click(function(e) {
+//         e.preventDefault();
+//         $(this).css('background', 'blue');
+//     })
+// });
+
+// .closest() - Seleciona o parente mais próximo de um elemento
+// $('h2').click(function() {
+//     $(this).closest('div').css('background', 'blue');
+// });
+
+// .parent() - Seleciona o primeiro parente encontrado, subindo quantos níveis forem necessários
+// $('h2').click(function() {
+//     $(this).parent().parent().css('background', 'blue');
+// });
+
+// // .parents() - Seleciona todos os parentes que existem em relação ao elemento selecionado
+// $('h2').click(function() {
+//     $(this).parents().css('background', 'blue');
+// });
+
+// .find() - Busca um elemento dentro dos filhos
+// $('div').click(function() {
+//     $(this).find('p').css('background', 'blue');
+// });
+
+// .first() - Busca apenas o primeiro elemento
+// $('.btn').first().css('background', 'blue');
+
+// .last() - Busca apenas o último elemento
+// $('.btn').last().css('background', 'blue');
+
+// .prev() - Seleciona o elemento anterior, mas não pega parent
+// $('.btn').prev().css('background', 'blue');
+
+// .next() - Seleciona o elemento seguinte, mas não pega parent
+// $('.btn').next().css('background', 'blue');
+
+// .eq() - Seleciona o elemento pelo seu index
+// $('a').eq(0).css('background', 'blue');
+
+// .not() - Remove item da seleção
+// $('a').not('.btn').css('background', 'blue');
