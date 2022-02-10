@@ -140,3 +140,36 @@ body {
 	margin-top: -2px;
 	box-sizing: border-box;
 }
+
+.botoes {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.botoes a {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px 30px;
+}
+
+.frases h2 {
+	font-family: monospace;
+}
+
+.frases {
+	padding: 40px;
+	display: table;
+}
+
+.frases div {
+	width: 25%;
+	float: left;
+}
+
+.frases p {
+	font-size: 0.875em;
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: rgba(0,0,0,.8);
+	padding: 0 20px 0 0;
+}
