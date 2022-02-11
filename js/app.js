@@ -263,3 +263,15 @@
 
 // .not() - Remove item da seleção
 // $('a').not('.btn').css('background', 'blue');
+
+// .ready() Verifica se o documento está carregado antes de carregar o código Javascript (Atenção, pois o método só é necessário se os arquivos JS forem chamados no início do código HTML. Caso forem chamados ao final, não é necessário.)
+// $(document).ready(function() {
+//     // Escrever todo código JS aqui dentro
+// });
+
+// .data() - Usado para pegar um valor em um atributo iniciado com data-
+
+// setTimeout() - Adiciona tempo de espera antes de executar uma função
+// setTimeout(function() {
+//     $('.abrir-modal').css('background', 'blue');
+// }, 2000);
